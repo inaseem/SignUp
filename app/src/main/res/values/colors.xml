@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="links">#448AFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#D3D3D3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editTextColor">#191926</color>
+
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#008080</color>
+    <color name="primary_darker">#008B8B</color>
+    <color name="accent">#FFFFFF</color>
+    <!--Section 1 Starts Here-->
+    <!--<color name="toolbarColorNA">#000000</color>-->
+    <!--<color name="colorPrimaryNA">#000000</color>-->
+    <!--<color name="colorPrimaryDarkNA">#000000</color>-->
+    <!--<color name="colorAccentNA">#ffffff</color>-->
+    <!--<color name="colorWindowBackgroundNA">#f8f8f8</color>-->
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="duskYellow">#d0be67</color>
+    <!--<color name="duskYellow">#F9F398</color>-->
+    <color name="lightGrey">#D3D3D3</color>
+    <!--<color name="colorAccent">#ea5d88</color>-->
+    <color name="colorTabInactive">#636363</color>
+    <color name="colorTabUnderline">#191926</color>
+    <color name="toolbarColorNA">#ffffff</color>
+    <color name="colorPrimaryNA">#ffffff</color>
+    <color name="colorPrimaryDarkNA">#000000</color>
+    <color name="colorAccentNA">#000000</color>
+    <color name="colorWindowBackgroundNA">#f8f8f8</color>
+    <color name="horizontalBarColor">#e5e5e5</color>
+    <color name="colorHeadings">#3a3a3a</color>
+    <color name="colorIcon">#636363</color>
+    <color name="colorBackground">#f2f2f2</color>
+    <color name="colorIconSelected">#191926</color>
+    <color name="colorBookTitles">#0c0c0c</color>
+    <color name="colorAuthor">#636363</color>
+    <color name="colorStar">#ffc107</color>
+    <color name="colorButtons">#c1c1c1</color>
+    <color name="colorCost">#3a3a3a</color>
+    <color name="colorBack">#EEEEEE</color>
+    <color name="colorPaperback">#636363</color>
+    <color name="colorAddToCart">#FFF</color>
+    <color name="colorBuy">#00CE8C</color>
+    <color name="colorRequest">#fc6d38</color>
+    <!--Section 1 Ends Here-->
+    <color name="colorPrimary2">#3b5bb3</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="bg_view_sms">#ffd423</color>
+    <color name="bg_view_otp">#fc6d38</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <!--<color name="colorPrimary">#008B8B</color>-->
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#008000</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent2">#ea5d88</color>
+
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="background_color">#009688</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="red">#ee2e24</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#fff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimary1">#F50057</color>
+    <color name="colorPrimaryDark1">#F50057</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="over_background">#ffe3e3e3</color>
+    <color name="addition">#008080</color>
+    <color name="add">#008000</color>
+    <color name="support">#008B8B</color>
+    <color name="prim">#2E8B57</color>
+
+    <color name="bg_screen1">#004876</color>
+    <!-- dots inactive colors -->
+    <!--<color name="dot_dark_screen1">#004876</color>-->
+    <color name="dot_dark_screen1">#004876</color>
+    <color name="dot_dark_screen2">#004876</color>
+    <color name="dot_dark_screen3">#004876</color>
+    <color name="dot_dark_screen4">#004876</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#fff</color>
+    <color name="dot_light_screen2">#fff</color>
+    <color name="dot_light_screen3">#fff</color>
+    <color name="dot_light_screen4">#fff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

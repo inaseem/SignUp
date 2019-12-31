@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="prompt">Phone</string>
+</resources>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:fillViewport="true"
+        android:padding="16dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/buttonContainer"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#C4C4C4">
+
+                <EditText
+                    android:id="@+id/fnameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C4C4C4"
+                    android:fontFamily="@font/affogato_medium"
+                    android:hint="First name"
+                    android:inputType="text"
+                    android:textColor="#191926"
+                    android:textColorHint="#C4C4C4"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#C4C4C4">
+
+                <EditText
+                    android:id="@+id/lnameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C4C4C4"
+                    android:fontFamily="@font/affogato_medium"
+                    android:hint="Last name"
+                    android:inputType="text"
+                    android:textColor="#191926"
+                    android:textColorHint="#C4C4C4"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#C4C4C4">
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#C4C4C4"
+                        android:fontFamily="@font/affogato_medium"
+                        android:hint="Email"
+                        android:inputType="textWebEmailAddress"
+                        android:textColor="#191926"
+                        android:textColorHint="#C4C4C4"
+                        android:textSize="18sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical|end"
+                    android:id="@+id/emailLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="@font/affogato_medium"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="Personal"
+                    android:textColor="@color/album_title"
+                    android:textColorHint="#C4C4C4"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColorHint="#C4C4C4"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C4C4C4"
+                    android:fontFamily="@font/affogato_medium"
+                    android:hint="Password"
+                    android:inputType="text"
+                    android:textColor="#191926"
+                    android:textColorHint="#C4C4C4"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <ProgressBar
+                android:id="@+id/strength"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:indeterminateTint="#e3e3e3"
+                android:progress="0"
+                android:progressTint="#e3e3e3"
+                android:visibility="gone" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="#C4C4C4"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/cpasswordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C4C4C4"
+                    android:fontFamily="@font/affogato_medium"
+                    android:hint="Confirm password"
+                    android:inputType="text"
+                    android:textColor="#191926"
+                    android:textColorHint="#C4C4C4"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/phoneLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-12dp"
+                android:backgroundTint="#C4C4C4"
+                android:fontFamily="@font/affogato_medium"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="Phone"
+                android:textColor="#191926"
+                android:textColorHint="#C4C4C4"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/phoneNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:prompt="@string/prompt" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorBuy"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/affogato_bold"
+            android:gravity="center"
+            android:text="Sign up"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryNA"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:indeterminate="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
